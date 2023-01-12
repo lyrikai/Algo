@@ -6,11 +6,10 @@ let tab
 try {
     const data = fs.readFileSync(fileName, 'utf8');
     console.log(data);
-    testo = data
+    tab = data
 } catch (error) {
     console.error(error.message);
 }
-
 
 if (tab){
   let tabb
